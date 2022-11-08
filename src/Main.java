@@ -57,6 +57,7 @@ public class Main {
                           + "Разница в их весе    = " + ( secondBoxerWheight % firstBoxerWheight ) + " кг.\n"
 
         );
+
         /* var capacityLeft = liftingCapacity - stuffWeight; */
     }
 
