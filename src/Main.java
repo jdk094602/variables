@@ -59,7 +59,14 @@ public class Main {
 
         );
 
-        /* var capacityLeft = liftingCapacity - stuffWeight; */
+        var totalCapacity = 640;
+        var workPerDay  = 8 ;
+        var totalSlaves = totalCapacity / workPerDay;
+        System.out.println("Всего работников в компании – " + totalSlaves  + " человек.\n");
+        totalSlaves = totalSlaves + 94 ;
+        totalCapacity = totalSlaves * workPerDay;
+        System.out.println("Если в компании работает " + totalSlaves  + " человек, \nто всего " + totalCapacity +  " часов работы может быть поделено между сотрудниками\n"
+        );
     }
 
 }
