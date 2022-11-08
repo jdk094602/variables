@@ -53,7 +53,7 @@ public class Main {
         var secondBoxerWheight = 82.7;
         System.out.println("Вес первого боксёра  = " + firstBoxerWheight  + " кг.\n"
                           + "Вес второго боксёра  = " + secondBoxerWheight + " кг.\n"
-                          + "Вместе они весят     = " + ( firstBoxerWheight + secondBoxerWheight) + " кг.\n"
+                          + "Вместе они  весят    = " + ( firstBoxerWheight + secondBoxerWheight) + " кг.\n"
                           + "Разница в их весе    = " + ( secondBoxerWheight % firstBoxerWheight ) + " кг.\n"
 
         );
