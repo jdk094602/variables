@@ -5,7 +5,7 @@ public class Main {
         double dog  = 8 ;
         var cat = 3.6 ;
         var paper = 763789  ;
-/* Excersice 1*/
+    /* Excersice 1*/
         System.out.println(" Step 1 . Initial all variables" + "\n");
         System.out.println("dog   = " + dog  + "\n"
                           +"cat   = " + cat  + "\n"
@@ -31,7 +31,7 @@ public class Main {
                 +"cat   = " + cat  + "\n"
                 +"paper = " + paper + "\n"
         );
-        /* Excersice 2*/
+    /* Excersice 2*/
 
         var friend = 19;
         System.out.println("friend = " + friend  + "\n");
@@ -48,13 +48,14 @@ public class Main {
         frog = frog + 4  ;
         System.out.println("frog + 4 = " + frog  + "\n");
 
-        /* Excersice 3*/
+    /* Excersice 3*/
         var firstBoxerWheight = 78.2;
         var secondBoxerWheight = 82.7;
         System.out.println("Вес первого боксёра  = " + firstBoxerWheight  + " кг.\n"
                           + "Вес второго боксёра  = " + secondBoxerWheight + " кг.\n"
                           + "Вместе они  весят    = " + ( firstBoxerWheight + secondBoxerWheight) + " кг.\n"
-                          + "Разница в их весе    = " + ( secondBoxerWheight % firstBoxerWheight ) + " кг.\n"
+                          + "Разница в их весе(-) = " + ( secondBoxerWheight - firstBoxerWheight ) + " кг.\n"
+                          + "Разница в их весе(%) = " + ( secondBoxerWheight % firstBoxerWheight ) + " кг.\n"
 
         );
 
